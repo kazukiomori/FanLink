@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EAAEB7C3399939C5935F485 /* Pods_FanLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A62A790833FAA1034E164DE /* Pods_FanLink.framework */; };
 		3BE5559929DCA08400679128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5559829DCA08400679128 /* AppDelegate.swift */; };
 		3BE5559B29DCA08400679128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5559A29DCA08400679128 /* SceneDelegate.swift */; };
 		3BE5559D29DCA08400679128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5559C29DCA08400679128 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		233D84830EFF0561630B4EE7 /* Pods-FanLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanLink.release.xcconfig"; path = "Target Support Files/Pods-FanLink/Pods-FanLink.release.xcconfig"; sourceTree = "<group>"; };
 		3BE5559529DCA08400679128 /* FanLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE5559829DCA08400679128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BE5559A29DCA08400679128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		3BE555A129DCA08800679128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE555A429DCA08800679128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE555A629DCA08800679128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F4E02BDB4AD00059BF6310 /* Pods-FanLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanLink.debug.xcconfig"; path = "Target Support Files/Pods-FanLink/Pods-FanLink.debug.xcconfig"; sourceTree = "<group>"; };
+		9A62A790833FAA1034E164DE /* Pods_FanLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAAEB7C3399939C5935F485 /* Pods_FanLink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3902AF490C5A1D5E14937EF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61F4E02BDB4AD00059BF6310 /* Pods-FanLink.debug.xcconfig */,
+				233D84830EFF0561630B4EE7 /* Pods-FanLink.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A3F6C7AA8AB5BD10B0E9758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A62A790833FAA1034E164DE /* Pods_FanLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BE5558C29DCA08400679128 = {
 			isa = PBXGroup;
 			children = (
 				3BE5559729DCA08400679128 /* FanLink */,
 				3BE5559629DCA08400679128 /* Products */,
+				3902AF490C5A1D5E14937EF9 /* Pods */,
+				3A3F6C7AA8AB5BD10B0E9758 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BE555A929DCA08800679128 /* Build configuration list for PBXNativeTarget "FanLink" */;
 			buildPhases = (
+				0E9197F71301C215C7348869 /* [CP] Check Pods Manifest.lock */,
 				3BE5559129DCA08400679128 /* Sources */,
 				3BE5559229DCA08400679128 /* Frameworks */,
 				3BE5559329DCA08400679128 /* Resources */,
+				D838F70328DD5F0ECD84D092 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +183,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E9197F71301C215C7348869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D838F70328DD5F0ECD84D092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FanLink/Pods-FanLink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FanLink/Pods-FanLink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FanLink/Pods-FanLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BE5559129DCA08400679128 /* Sources */ = {
@@ -306,6 +375,7 @@
 		};
 		3BE555AA29DCA08800679128 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F4E02BDB4AD00059BF6310 /* Pods-FanLink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +408,7 @@
 		};
 		3BE555AB29DCA08800679128 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233D84830EFF0561630B4EE7 /* Pods-FanLink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
