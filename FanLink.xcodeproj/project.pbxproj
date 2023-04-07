@@ -56,15 +56,39 @@
 		3BE5559729DCA08400679128 /* FanLink */ = {
 			isa = PBXGroup;
 			children = (
+				3BE555AE29E065BC00679128 /* View */,
+				3BE555AD29E065AF00679128 /* ViewModel */,
+				3BE555AC29E065A200679128 /* ViewController */,
 				3BE5559829DCA08400679128 /* AppDelegate.swift */,
 				3BE5559A29DCA08400679128 /* SceneDelegate.swift */,
-				3BE5559C29DCA08400679128 /* ViewController.swift */,
 				3BE5559E29DCA08400679128 /* Main.storyboard */,
 				3BE555A129DCA08800679128 /* Assets.xcassets */,
 				3BE555A329DCA08800679128 /* LaunchScreen.storyboard */,
 				3BE555A629DCA08800679128 /* Info.plist */,
 			);
 			path = FanLink;
+			sourceTree = "<group>";
+		};
+		3BE555AC29E065A200679128 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5559C29DCA08400679128 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3BE555AD29E065AF00679128 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3BE555AE29E065BC00679128 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
