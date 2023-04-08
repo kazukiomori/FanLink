@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0EAAEB7C3399939C5935F485 /* Pods_FanLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A62A790833FAA1034E164DE /* Pods_FanLink.framework */; };
+		3B80D9CE29E1450F0056131D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B80D9CD29E1450F0056131D /* GoogleService-Info.plist */; };
 		3BE5559929DCA08400679128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5559829DCA08400679128 /* AppDelegate.swift */; };
 		3BE5559B29DCA08400679128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5559A29DCA08400679128 /* SceneDelegate.swift */; };
 		3BE5559D29DCA08400679128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5559C29DCA08400679128 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		233D84830EFF0561630B4EE7 /* Pods-FanLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanLink.release.xcconfig"; path = "Target Support Files/Pods-FanLink/Pods-FanLink.release.xcconfig"; sourceTree = "<group>"; };
+		3B80D9CD29E1450F0056131D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3BE5559529DCA08400679128 /* FanLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE5559829DCA08400679128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BE5559A29DCA08400679128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				61F4E02BDB4AD00059BF6310 /* Pods-FanLink.debug.xcconfig */,
 				233D84830EFF0561630B4EE7 /* Pods-FanLink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,6 +90,7 @@
 				3BE5559E29DCA08400679128 /* Main.storyboard */,
 				3BE555A129DCA08800679128 /* Assets.xcassets */,
 				3BE555A329DCA08800679128 /* LaunchScreen.storyboard */,
+				3B80D9CD29E1450F0056131D /* GoogleService-Info.plist */,
 				3BE555A629DCA08800679128 /* Info.plist */,
 			);
 			path = FanLink;
@@ -179,6 +181,7 @@
 				3BE555A529DCA08800679128 /* LaunchScreen.storyboard in Resources */,
 				3BE555A229DCA08800679128 /* Assets.xcassets in Resources */,
 				3BE555A029DCA08400679128 /* Main.storyboard in Resources */,
+				3B80D9CE29E1450F0056131D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
