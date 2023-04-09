@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  FanLink
+
+  Created by Kazuki Omori on 2023/04/09.
+  
+*/
+
+// LoginViewController
+
+"login" = "ログイン"
